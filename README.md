@@ -8,7 +8,7 @@ THIS PROJECT IS NOT TO BE LAUNCHED ON THE WEB OR USED IN ANY WAY FOR COMMERCIAL 
 My name is Jordan Gidman and im an aspiring web developer.
 
 This project is a clone of pirsch.io that i have built from scratch both as a learning exercise and a project to display my capabilities with html and css. 
-Everything you see i built myself using knowledge i have taught myself online over the last couple of months. 
+Everything you see i built myself using knowledge i have taught myself online over the last several of months. 
 Pirsch.io is a website i found on awwwards.com that i felt had enough features to make cloning it a reasonable challenge.
 
 I am very much a beginner and this is my first project to simply test my ability. This project is HTML/CSS only and does not yet contain JS.
