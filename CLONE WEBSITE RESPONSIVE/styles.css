@@ -1,0 +1,355 @@
+/* 
+///////////////////////////////////////
+NAVBAR
+///////////////////////////////////////
+*/
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3.6rem;
+  padding-bottom: 12.8rem;
+}
+
+.pirsch-logo {
+  display: inline-block;
+  height: 24px;
+  width: 24px;
+  fill: #fff;
+  align-self: center;
+}
+
+.logo {
+  font-size: 2.4rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2.4rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.main-nav-links:link,
+.main-nav-links:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 600;
+
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-link {
+  color: #fff;
+}
+
+/* 
+///////////////////////////////////////
+SECTION-LANDING-PAGE
+///////////////////////////////////////
+*/
+
+.main-heading {
+  font-size: 7.4rem;
+  display: block;
+  line-height: 1.6;
+  letter-spacing: -2px;
+}
+
+.heading-primary {
+  color: #aaa;
+}
+
+.hero-text {
+  display: block;
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: 1.2;
+  color: #aaa;
+  font-weight: 500;
+  margin-bottom: 4.4rem;
+}
+
+.cta-btn {
+  display: flex;
+  gap: 2rem;
+  padding: 2.4rem 2.4rem;
+}
+
+.hero-btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.2rem 2.8rem;
+}
+
+.hero-img-box {
+  margin-top: 4.4rem;
+  padding: 1.2rem;
+  border: 1px solid rgba(170, 170, 170, 0.2);
+  margin-bottom: 12.8rem;
+  border-radius: 6px;
+  position: relative;
+
+  /* max-width: 100%; */
+}
+
+.example-img {
+  max-width: 100%;
+}
+
+.img-btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.2rem 2.8rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+
+.hero-img-box:hover {
+  opacity: 0.5;
+}
+
+/* .img-btn:hover .example-img {
+  opacity: 0.5;
+} */
+
+.hero-img-box:hover > .img-btn {
+  opacity: 1;
+}
+
+/* 
+///////////////////////////////////////
+CUSTOMER-TESTIMONIALS
+///////////////////////////////////////
+*/
+
+.customer-testimonials-box {
+  margin-bottom: 12.8rem;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  background-color: #141414;
+  padding: 2.2rem;
+  border-radius: 6px;
+}
+
+.testimonial div {
+  display: flex;
+  column-gap: 2.2rem;
+  padding-bottom: 2.2rem;
+  align-items: center;
+}
+
+.customer-img {
+  height: 6.8rem;
+  width: 6.8rem;
+  border-radius: 50%;
+}
+
+.customer-details {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.customer-name {
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: 1.2;
+  color: #eee;
+  font-weight: 500;
+}
+
+.customer-website-link {
+  font-size: 1.4rem;
+  color: #ccc;
+}
+.testimonial-text {
+  font-size: 1.7rem;
+
+  line-height: 1.6;
+  letter-spacing: 1.2;
+  color: #aaa;
+  font-weight: 500;
+}
+
+/* 
+///////////////////////////////////////
+PREVIEW BOX
+///////////////////////////////////////
+*/
+
+.preview-box {
+  grid-template-columns: 60fr 40fr;
+  align-items: center;
+  padding: 3.2rem;
+  gap: 3.2rem;
+  margin-bottom: 12.8rem;
+}
+
+.preview-heading {
+  font-size: 3rem;
+  margin-bottom: 2.2rem;
+}
+
+.preview-text-box {
+  margin-bottom: 4.4rem;
+}
+
+.preview-text {
+  display: block;
+  font-size: 2rem;
+  line-height: 1.6;
+  letter-spacing: 1.2;
+  color: #aaa;
+  font-weight: 500;
+  margin-bottom: 2.2rem;
+}
+
+.preview-btn {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 1.2rem 2.8rem;
+}
+
+.preview-box-2 {
+  grid-template-columns: 40fr 60fr;
+  align-items: center;
+  padding: 3.2rem;
+  gap: 9.6rem;
+  margin-bottom: 12.8rem;
+}
+
+/* 
+///////////////////////////////////////
+ASSURANCES SECTION
+///////////////////////////////////////
+*/
+
+.assurance-section {
+  padding-bottom: 12.8rem;
+}
+
+.preview-box {
+  padding-top: 12.8rem;
+}
+
+.assurance-heading {
+  font-size: 6.2rem;
+  font-weight: 600;
+  letter-spacing: -6;
+}
+
+.preview-assurance-text {
+  padding-top: 2.2rem;
+  line-height: 1.8;
+  font-size: 2rem;
+}
+
+.assurance-btns {
+  display: flex;
+  gap: 2.2rem;
+}
+
+/* 
+///////////////////////////////////////
+GRAPHIC BOX
+///////////////////////////////////////
+*/
+.graphic-box {
+  grid-template-columns: 40fr 60fr;
+  align-items: center;
+  padding: 3.2rem;
+  gap: 4.8rem;
+  /* margin-bottom: 12.8rem; */
+}
+
+/* 
+///////////////////////////////////////
+CTA BOX
+///////////////////////////////////////
+*/
+
+.cta-box {
+  width: 100%;
+  background-color: #141414;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 8.4rem 4.8rem;
+  margin-bottom: 12.8rem;
+  border-radius: 8px;
+
+  box-shadow: 0 0 0.2 6px rgba(0, 0, 0, 0.15);
+}
+
+.cta-heading {
+  font-size: 6.2rem;
+  margin-bottom: 2.2rem;
+}
+
+.cta-text {
+  line-height: 1.8;
+  font-size: 2rem;
+  color: #aaa;
+  font-weight: 500;
+  padding-bottom: 4.4rem;
+}
+
+.cta-tag {
+  padding-top: 1.8rem;
+  font-size: 1.4rem;
+  color: rgb(160, 160, 160);
+}
+
+/* 
+///////////////////////////////////////
+FOOTER BOX
+///////////////////////////////////////
+*/
+.footer {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+  padding-bottom: 12.8rem;
+}
+
+.footer-box-heading {
+  padding-bottom: 1.6rem;
+}
+
+.footer-box-text {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #aaa;
+}
+
+.footer-list {
+  list-style: none;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  line-height: 1.2;
+}
+
+.footer-list-item a {
+  text-decoration: none;
+  color: #aaa;
+}

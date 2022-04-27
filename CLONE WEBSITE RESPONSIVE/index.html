@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="general.css" rel="stylesheet" />
+    <link href="styles.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
+    <title>Pirsch Clone</title>
+  </head>
+  <body>
+    <header class="main-header container">
+      <div class="logo">
+        <!-- <img src="img/logo-img.png" alt="pirsch logo" class="logo-img" /> -->
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="100%"
+          height="100%"
+          class="pirsch-logo"
+          viewBox="0 0 26 38"
+        >
+          <path
+            d="M1 24c6.627 0 12-5.373 12-12S7.627 0 1 0v24zm24-10c-6.627 0-12 5.373-12 12s5.373 12 12 12V14z"
+          ></path>
+          <circle cx="21" cy="6" r="5"></circle>
+          <circle cx="5" cy="32" r="5"></circle>
+        </svg>
+        <a class="logo-text">Pirsch</a>
+      </div>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li>
+            <a href="#" class="main-nav-links nav-link">For Developers</a>
+          </li>
+          <li><a href="#" class="main-nav-links nav-link">Pricing</a></li>
+          <li><a href="#" class="main-nav-links nav-link">Blog</a></li>
+          <li><a href="#" class="main-nav-links btn btn-alt">Log In</a></li>
+          <li>
+            <span class="main-nav-links btn btn-main"
+              >Start 30-day Free Trial</span
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <h1 class="main-heading heading-primary">
+          It's How Analytics Should Be.
+        </h1>
+        <h1 class="main-heading">Cookie Free.</h1>
+        <p>
+          <span class="hero-text"
+            >Pirsch is a simple, coocki-free, and open-source web analytics
+            solution <br />that easily integrates into your website or
+            backend.</span
+          >
+        </p>
+        <div class="cta-btn">
+          <a>
+            <span class="hero-btn btn btn-main"
+              >Start 30-day Free Trial</span
+            ></a
+          >
+          <a><span class="hero-btn btn btn-alt">View Live Demo</span></a>
+        </div>
+        <div class="hero-img-box">
+          <img
+            src="img/dashboard.png"
+            alt="screenshot of the pirsch app tracking stats"
+            class="example-img"
+          />
+          <a> <span class="img-btn btn btn-main">View Live Demo</span></a>
+        </div>
+
+        <div class="container center-text">
+          <h2 class="subheading">Our Customers Love Pirsch</h2>
+        </div>
+
+        <div class="customer-testimonials-box grid grid--3-cols">
+          <div class="testimonial">
+            <div>
+              <img
+                class="customer-img"
+                src="img/customers/customer-1.jpg"
+                alt="photo of customer"
+              />
+              <div class="customer-details">
+                <p class="customer-name">Beth Varga</p>
+                <p class="customer-website-link">bethvarga.io</p>
+              </div>
+            </div>
+            <p class="testimonial-text">
+              We use Pirsch on our website or software (Electron-based and UWP)
+              with privacy in mind. It's not just GDPR compliant, it's a real
+              philosophy. Privacy is not optional, it's a right.
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <div>
+              <img
+                class="customer-img"
+                src="img/customers/customer-2.jpg"
+                alt="photo of customer"
+              />
+              <div class="customer-details">
+                <p class="customer-name">Marco Donelly</p>
+                <p class="customer-website-link">marcodonelly.com</p>
+              </div>
+            </div>
+            <p class="testimonial-text">
+              I only wish I would've found Pirsch sooner. It is simple, clean,
+              and quick. I tried several other solutions to display website data
+              on my clients' SEO dashboards, Pirsch is the winner.
+            </p>
+          </div>
+
+          <div class="testimonial">
+            <div>
+              <img
+                class="customer-img"
+                src="img/customers/customer-3.jpg"
+                alt="photo of customer"
+              />
+              <div class="customer-details">
+                <p class="customer-name">Amanda Hayes</p>
+                <p class="customer-website-link">amandasproducts.com</p>
+              </div>
+            </div>
+            <p class="testimonial-text">
+              A fast and beautiful crafted analytics tool. The UI is lovely and
+              the information is easy to grasp. Sounds cheesy but analytics are
+              fun with Pirsch.
+            </p>
+          </div>
+        </div>
+
+        <div class="preview-box grid">
+          <div class="preview-text-box">
+            <h3 class="preview-heading">Gain Insights in Real Time</h3>
+            <p class="preview-text">
+              Receive detailed insights on all your numbers in real-time. See
+              where visitors are coming from and optimize your campaigns for
+              conversion.
+            </p>
+            <p class="preview-text">
+              Filter statistics with a single click and connect to Google Search
+              Console to see what searches led people to your website without
+              leaving your dashboard.
+            </p>
+            <a><span class="preview-btn btn btn-alt">View Live Demo</span></a>
+          </div>
+          <img
+            class="preview-img"
+            src="img/preview-img.png"
+            alt="a preview of the pirsch dashboard"
+          />
+        </div>
+
+        <div class="preview-box-2 grid">
+          <img
+            src="img/preview-img-2.png"
+            class="preview-img"
+            alt="example
+          image of conversion goals and events"
+          />
+
+          <div class="preview-text-box preview-goals-box">
+            <h3 class="preview-heading">Track Conversion Goals and Events</h3>
+            <p class="preview-text">
+              Follow up on your key indicators through conversion goals with
+              visitor and conversion rate targets and get notified when they are
+              reached.
+            </p>
+            <p class="preview-text">
+              Events allow you to send custom metadata and track button clicks,
+              product sales, and more.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="assurance-section container">
+        <h1 class="main-heading heading-primary assurance-heading">
+          Get Rid of That Coockie Banner.
+        </h1>
+        <h1 class="main-heading assurance-heading">Own Your Data.</h1>
+        <p>
+          <span class="hero-text preview-assurance-text"
+            >Pirsch has no-compromise, GDPR-, CCPA-, and Schrems II-compliant<br />
+            privacy. Built and hosted in Germany, we operate under strict
+            European <br />privacy laws — any data collected belongs to you and
+            will never be shared or sold.</span
+          >
+        </p>
+        <div class="assurance-btns">
+          <a>
+            <span class="hero-btn btn btn-main"
+              >Start 30-day Free Trial</span
+            ></a
+          >
+          <a><span class="hero-btn btn btn-alt">View Live Demo</span></a>
+        </div>
+
+        <div class="preview-box grid">
+          <div class="preview-text-box">
+            <h3 class="preview-heading">Empower Your Team</h3>
+            <p class="preview-text">
+              Keep your team members and customers in the loop by sharing your
+              dashboard publicly or privately and receiving regular reports via
+              email.
+            </p>
+            <p class="preview-text">
+              Access links let your clients view their website statistics
+              without a password.
+            </p>
+            <a><span class="preview-btn btn btn-alt">View Live Demo</span></a>
+          </div>
+          <img
+            class="preview-img"
+            src="img/public-access-img.png"
+            alt="a preview of the pirsch dashboard"
+          />
+        </div>
+
+        <div class="graphic-box grid">
+          <img
+            src="img/rotating-graphic.png"
+            class="preview-img"
+            alt="example
+          image of conversion goals and events"
+          />
+
+          <div class="preview-text-box">
+            <h3 class="preview-heading">With Developers in Mind</h3>
+            <p class="preview-text">
+              Pirsch seamlessly integrates with technologies you already use.
+              Add a small JavaScript snippet or plugin to your website to
+              accurately measure your traffic.
+            </p>
+            <p class="preview-text">
+              A powerful API lets you automate any task and work with data in
+              your tools.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section container">
+        <div class="cta-box">
+          <h1 class="cta-heading">Ready to Get Started?</h1>
+          <p class="cta-text">
+            Try Pirsch for free for 30 days — setting up your first website only
+            takes a few minutes.
+          </p>
+          <a>
+            <span class="hero-btn btn btn-main"
+              >Start 30-day Free Trial</span
+            ></a
+          >
+          <span class="cta-tag">No credit card required.</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer container">
+      <div class="footer-box">
+        <h1 class="footer-box-heading">Pirsch Analytics</h1>
+        <p class="footer-box-text">
+          Made and hosted in Germany.<br />
+          &copy; 2022 Emvi Software GmbH. All rights reserved.
+        </p>
+      </div>
+      <div class="footer-box">
+        <h1 class="footer-box-heading">Product</h1>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="#">Home</a></li>
+          <li class="footer-list-item"><a href="#">Pricing</a></li>
+          <li class="footer-list-item"><a href="#">For Developers</a></li>
+          <li class="footer-list-item">
+            <a href="#">Privacy-friendly Analytics</a>
+          </li>
+          <li class="footer-list-item">
+            <a href="#">Google Analytics Alternative</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h1 class="footer-box-heading">Resources</h1>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="#">Live Demo</a></li>
+          <li class="footer-list-item"><a href="#">Blog</a></li>
+          <li class="footer-list-item"><a href="#">Documentation</a></li>
+          <li class="footer-list-item"><a href="#">API and SDKs</a></li>
+          <li class="footer-list-item"><a href="#">Changelog</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h1 class="footer-box-heading">Social</h1>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="#">GitHub</a></li>
+          <li class="footer-list-item"><a href="#">Twitter</a></li>
+          <li class="footer-list-item"><a href="#">Discord</a></li>
+          <li class="footer-list-item"><a href="#">Indie Hackers</a></li>
+          <li class="footer-list-item"><a href="#">Product Hunt</a></li>
+        </ul>
+      </div>
+      <div class="footer-box">
+        <h1 class="footer-box-heading">Company</h1>
+        <ul class="footer-list">
+          <li class="footer-list-item"><a href="#">Contact Us</a></li>
+          <li class="footer-list-item"><a href="#">About Us</a></li>
+          <li class="footer-list-item"><a href="#">Terms and Conditions</a></li>
+          <li class="footer-list-item"><a href="#">Privacy Policy</a></li>
+          <li class="footer-list-item"><a href="#">Legal Notice</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

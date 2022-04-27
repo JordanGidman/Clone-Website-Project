@@ -1,0 +1,122 @@
+/* 
+
+Spacing: 
+4.4rem
+
+Colors: 
+
+Shadows: 
+
+Tints: 
+
+Shades: 
+
+Font sizes:
+
+Line Heights: 
+1.6rem
+1.8rem
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  background-color: #0a0a0a;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* 
+///////////////////////////////////////
+UTILITY
+///////////////////////////////////////
+*/
+
+.container {
+  width: 120rem;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+/* 
+///////////////////////////////////////
+RE-USABLE CLASSES
+///////////////////////////////////////
+*/
+.btn {
+  display: inline-block;
+  border-radius: 6px;
+  padding: 1.2rem 1.8rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-main {
+  background-color: #6ece9d;
+  color: #080808;
+
+  transition: all 0.3s;
+}
+
+.btn-main:hover,
+.btn-main:visited {
+  background-color: #63b98d;
+}
+
+.btn-alt {
+  background-color: #fff;
+  color: #080808;
+
+  transition: all 0.3s;
+}
+
+.btn-alt:hover,
+.btn-alt:visited {
+  background-color: #e6e6e6;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 3.2rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.subheading {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-bottom: 4.4rem;
+}
+
+.center-text {
+  text-align: center;
+}
+/* 
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98 
+
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
